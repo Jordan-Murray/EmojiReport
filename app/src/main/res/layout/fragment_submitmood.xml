@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryNavy">
+
+
+    <TextView
+        android:id="@+id/submitAMood_howAreYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/lato"
+        android:text="How are you today?"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/submitAMood_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/lato"
+        android:text="Today's Date"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/submitAMood_mood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="75dp"
+        android:fontFamily="@font/lato"
+        android:text="Mood"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="25sp" />
+
+    <HorizontalScrollView
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="200dp"
+        android:layout_height="50dp"
+        android:layout_width="150dp">
+
+        <LinearLayout
+            android:layout_height="50dp"
+            android:layout_width="150dp"
+            android:background="@color/colorAccentBlue"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:id="@+id/submitAMood_radioButtonGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/submitAMood_verySad"
+                    android:button="@null"
+                    android:layout_margin="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/very_sad"
+                    android:backgroundTintMode="multiply">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/submitAMood_sad"
+                    android:button="@null"
+                    android:layout_margin="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/sad"
+                    android:backgroundTintMode="multiply">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/submitAMood_neutral"
+                    android:button="@null"
+                    android:layout_margin="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/neutral"
+                    android:backgroundTintMode="multiply">
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/submitAMood_happy"
+                    android:button="@null"
+                    android:layout_margin="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/happy"
+                    android:backgroundTintMode="multiply">
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/submitAMood_veryHappy"
+                    android:button="@null"
+                    android:layout_margin="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/very_happy"
+                    android:backgroundTintMode="multiply">
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <EditText
+        android:id="@+id/submitAMood_locationTag"
+        android:fontFamily="@font/lato"
+        android:textSize="15sp"
+        android:layout_width="184dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@color/colorAccentPink"
+        android:hint="Location Name"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textColorHint="@color/colorTextWhite"
+        android:gravity="center_horizontal">
+    </EditText>
+
+    <TextView
+        android:id="@+id/submitAMood_tagYourLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:fontFamily="@font/lato"
+        android:text="Tag your location"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="28sp" />
+
+<!--    <ListView-->
+<!--        android:id="@+id/myTeam_teamMembers"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="250dp"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:background="@color/colorAccentBlue">-->
+
+<!--        -->
+<!--    </ListView>-->
+
+    <Button
+        android:id="@+id/submitAMood_submit"
+        android:layout_width="116dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="525dp"
+        android:background="@color/colorAccentPink"
+        android:text="Submit"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="13sp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/submitAMood_mapView"
+        android:layout_width="330dp"
+        android:layout_height="228dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp" />
+</RelativeLayout>

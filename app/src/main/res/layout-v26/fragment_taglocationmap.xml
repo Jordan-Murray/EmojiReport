@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryNavy">
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/tagLocationMap_mapView"
+        android:layout_width="381dp"
+        android:layout_height="510dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/tagLocationMap_goBack"
+        android:layout_centerHorizontal="true"
+        android:layout_width="74dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/tagLocationMap_mapView"
+        android:layout_marginTop="26dp"
+        android:background="@color/colorAccentPink"
+        android:fontFamily="@font/lato"
+        android:text="Go Back"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="13sp" />
+</RelativeLayout>

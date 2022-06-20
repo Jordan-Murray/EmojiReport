@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryNavy"
+    tools:context=".CreateATeam">
+
+    <EditText
+        android:id="@+id/createATeam_teamName"
+        android:layout_width="269dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorAccentPink"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:hint="Create a Team Name"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textColorHint="@color/colorTextWhite"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/createATeam_membersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="Members"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/createATeam_teamMembers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createATeam_teamName"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <ListView
+        android:id="@+id/createATeam_teamMembers"
+        android:layout_width="221dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccentBlue"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/createATeam_teamPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createATeam_teamName"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <TextView
+        android:id="@+id/createATeam_teamPassword"
+        android:layout_width="266dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="448dp"
+        android:fontFamily="@font/lato"
+        android:text="Team Password: "
+        android:textColor="@color/colorTextWhite"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/createATeam_saveChanges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/createATeam_saveChanges"
+        android:layout_width="113dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccentPink"
+        android:fontFamily="@font/lato"
+        android:text="Save Changes"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/createATeam_goBack"
+        android:layout_width="113dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccentPink"
+        android:fontFamily="@font/lato"
+        android:text="Go Back"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

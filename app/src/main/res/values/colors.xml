@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryNavy">#1A1A2E</color>
+    <color name="colorAccentPink">#E84560</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorAccentBlue">#33616b</color>
+    <color name="colorButtonHighlight">#686968</color>
+</resources>

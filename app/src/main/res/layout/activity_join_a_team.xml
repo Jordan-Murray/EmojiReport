@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryNavy"
+    tools:context=".JoinATeam">
+
+    <TextView
+        android:id="@+id/joinATeam_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="Emoji Report"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        android:textColor="@color/colorTextWhite"/>
+
+    <ImageView
+        android:id="@+id/joinATeam_logo"
+        android:fontFamily="@font/lato"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="112dp"
+        android:outlineAmbientShadowColor="@color/colorAccentPink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emoji_action_name"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/joinATeam_teamPassword"
+        android:layout_width="184dp"
+        android:layout_height="24dp"
+        android:background="@color/colorAccentPink"
+        android:fontFamily="@font/lato"
+        android:hint="Team Password"
+        android:textColor="@color/colorTextWhite"
+        android:textColorHint="@color/colorTextWhite"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <Button
+        android:id="@+id/joinATeam_joinTeam"
+        android:layout_width="74dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="360dp"
+        android:background="@color/colorAccentPink"
+        android:fontFamily="@font/lato"
+        android:text="Join Team"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/joinATeam_goBack"
+        android:layout_width="74dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="360dp"
+        android:background="@color/colorAccentPink"
+        android:fontFamily="@font/lato"
+        android:text="Go Back"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.335"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

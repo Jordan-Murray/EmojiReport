@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "276300352003",
+    "firebase_url": "https://emoji-report-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "emoji-report",
+    "storage_bucket": "emoji-report.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276300352003:android:c2af854d78c625542c9c36",
+        "android_client_info": {
+          "package_name": "com.example.navexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276300352003-fk5ooj68oc82f67bkll7fc3vl8a16fnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.navexample",
+            "certificate_hash": "913d6466e87a15ea3074c3df0295640571084c1a"
+          }
+        },
+        {
+          "client_id": "276300352003-hg20m9hlhh6pgtgbnmlu78p8fcup87ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiw4czeIG-L6rs0PJCsUiTsuGfBqnlOsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276300352003-hg20m9hlhh6pgtgbnmlu78p8fcup87ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
