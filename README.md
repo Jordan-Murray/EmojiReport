@@ -1,4 +1,4 @@
-#Emoji Report
+**Emoji Report**
 
 **Work Satisfaction Reporting App**
 
